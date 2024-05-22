@@ -28,15 +28,14 @@ will be created in the file where we enforce it
 ```
 python3 -m virtualenv .venv
 ```
+
 5. Environmental activation
 ```
 source .venv/Scripts/activate
 ```
-6. Install external packages from the location where we call requirements.txt (must be in the same path)
-```
-pip install -r requirements.txt 
-```
-7. Execute the given command to open the project.
+
+6. Execute the given command to open the project.
 ```
 python3 main.py
 ```
+
